@@ -52,18 +52,18 @@ export const isEmail = (email) => {
   /**
    * Dot to Hy
    */
-  export const dotsToHyphens = (inputString) => {
+  export const tokenEncode = (inputString) => {
     // Use the replace method with a regular expression to replace dots with hyphens
-    const stringWithHyphens = inputString.replace(/\./g, "asrafulhaq");
+    const stringWithHyphens = inputString.replace(/\./g, "shohan");
     return stringWithHyphens;
   };
   
   /**
    * Hypens to Dots
    */
-  export const hyphensToDots = (inputString) => {
+  export const tokenDecode = (inputString) => {
     // Use the replace method with a regular expression to replace hyphens with dots
-    const stringWithDots = inputString.replace(/asrafulhaq/g, ".");
+    const stringWithDots = inputString.replace(/shohan/g, ".");
     return stringWithDots;
   };
   
