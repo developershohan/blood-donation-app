@@ -28,6 +28,39 @@ const userSchema = mongoose.Schema({
         default: null,
         trim: true,
     },
+    location: {
+        type: String,
+        default: null,
+        trim: true,
+    },
+    profession: {
+        type: String,
+        default: null,
+        trim: true,
+    },
+    bio: {
+        type: String,
+        default: null,
+        trim: true,
+    },
+    bloodGroup: {
+        type: String,
+        default: null,
+        trim: true,
+    },
+    lastDonation: {
+        type: String,
+        default: null,
+        trim: true,
+    },
+    gallery: {
+        type: [String]
+    },
+    lastDonation: {
+        type: String,
+        default: null,
+        trim: true,
+    },
     accessToken: {
         type: String,
         default: null,
